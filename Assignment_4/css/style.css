@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 body {
@@ -701,7 +701,7 @@ nav .fas{
         font-weight: 400;
     }
     .specification-container{
-        height: 512px;
+        height: 551px;
         padding: 40px 0px 14px;
     }
     .specification-container .content{
@@ -837,6 +837,11 @@ nav .fas{
         display: none;
     }
 
+}
+@media screen and (max-width:426px){
+    footer .content .left{
+        margin: 0px;
+    }
 }
 @media screen and (max-width:615px) {
     .favorite-container .content .product-container{
