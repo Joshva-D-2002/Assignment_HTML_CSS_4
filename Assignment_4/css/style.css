@@ -276,7 +276,7 @@ main{
 .specification-container .content .container-desktop .tooltip-1{
     position: absolute;
     left: 200px;
-    top: 100px;
+    top: 95px;
 }
 .specification-container .content .container-desktop .tooltip-2{
     position: absolute;
@@ -290,8 +290,8 @@ main{
 }
 .specification-container .content .container-desktop .tooltip-4{
     position: absolute;
-    right: 95px;
-    bottom: 145px;
+    right: 80px;
+    bottom: 135px;
 }
 .specification-container .content .container-mobile{
     display: none;
