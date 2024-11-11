@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 .top-container {
-  min-width: 1920px;
+  width: 1920px;
   height: 1071px;
   margin: auto;
   background-image: linear-gradient( to right,rgba(11, 10, 9,0.7) ,rgba(11, 10, 9,0.4)), url("../images/Home.png");
