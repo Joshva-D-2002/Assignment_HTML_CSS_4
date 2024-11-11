@@ -608,6 +608,7 @@ nav .fas{
         width: 154px;
         height: 56px;
         border-radius: 64px;
+        border: none;
         background-image: linear-gradient(to right, #4A4745, #151414);
         display: flex;
         justify-content: space-evenly;
