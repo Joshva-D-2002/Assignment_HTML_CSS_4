@@ -443,10 +443,12 @@ footer .content .right .social-media-container ul li a img{
     text-align: center;
     color: #9D9895;
     font-size: 14px;
+    margin-bottom: 50px;
 }
-.copy-mobile{
+.copy-moblie{
     display: none;
 }
+
 @media screen and (max-width:1024px){
     body{
         zoom: 0.63;
