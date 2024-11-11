@@ -150,6 +150,7 @@ main{
     height: 56px;
     background: linear-gradient(to right ,#4A4745, #151414);
     border-radius: 64px;
+    border: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -224,6 +225,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 64px;
+    border: none;
     filter: blur(0px);
 }
 .favorite-container .content .product-container .product .box span{
@@ -294,6 +296,7 @@ main{
     width: 158px;
     height: 56px;
     border-radius: 64px;
+    border: none;
     background-image: linear-gradient(to right ,#4A4745, #151414);
     display: flex;
     justify-content: space-evenly;
@@ -402,6 +405,7 @@ footer .content .right .boxes-container .box-2{
     height: 56px;
     background-image: linear-gradient(to right ,#4A4745, #151414);
     border-radius: 64px;
+    border: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
