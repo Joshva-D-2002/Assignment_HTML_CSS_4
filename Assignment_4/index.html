@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="full-container">
@@ -23,7 +24,8 @@
             <a class="logo-mobile" href="#">
               <img src="images/JBL.png" alt="Company Logo" />
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+              <i class="fas fa-times" onclick="hideMenu()"></i>
               <ul>
                 <li class="f-c"><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -31,7 +33,7 @@
                 <li><a href="#">Models</a></li>
               </ul>
             </div>
-            <img src="images/grid.png" alt="Grid Image" />
+            <i class="fas fa-bars" onclick="showMenu()"></i>
           </nav>
         </header>
         <div class="content-1">
@@ -239,5 +241,14 @@
         </p>
       </footer>
     </div>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0px";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
