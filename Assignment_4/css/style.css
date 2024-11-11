@@ -189,13 +189,17 @@ main{
     justify-content: center;
     gap: 70px;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 .favorite-container .content .product-container .product{
+    height: 362px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.favorite-container .content .product-container .product-2{
+    height: 438px;
 }
 .favorite-container .content .product-container .product img{
     width: 280px;
