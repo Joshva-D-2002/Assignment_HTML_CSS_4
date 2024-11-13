@@ -454,6 +454,9 @@ footer .content .right .social-media-container ul li a img {
   font-size: 14px;
   margin-bottom: 50px;
 }
+.copy-desktop .link {
+  color: #590078;
+}
 .copy-moblie {
   display: none;
 }
@@ -489,7 +492,7 @@ nav .fas {
   .big-text {
     margin-left: 230px;
   }
-  footer .content{
+  footer .content {
     padding-left: 0px;
   }
 }
