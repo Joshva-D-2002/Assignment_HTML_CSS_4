@@ -22,7 +22,7 @@
   <body>
     <div class="full-container">
       <div class="bg-color">
-        <div class="top-container">
+        <div id="home" class="top-container">
           <header>
             <nav>
               <a href="#">
@@ -34,10 +34,10 @@
               <div class="nav-links" id="navLinks">
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
-                  <li class="f-c"><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Favorites</a></li>
-                  <li><a href="#">Models</a></li>
+                  <li class="f-c"><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#favorite">Favorites</a></li>
+                  <li><a href="#model">Models</a></li>
                 </ul>
               </div>
               <i class="fas fa-bars" onclick="showMenu()"></i>
@@ -49,17 +49,17 @@
               <div class="line"></div>
               <ul class="icon-list">
                 <li>
-                  <a href=""
+                  <a href="#"
                     ><img src="images/insta.png" alt="Instagram Icon"
                   /></a>
                 </li>
                 <li>
-                  <a href=""
+                  <a href="#"
                     ><img src="images/facebook.png" alt="facebook Icon"
                   /></a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="#">
                     <img src="images/youtube.png" alt="youtube Icon" />
                   </a>
                 </li>
@@ -97,7 +97,7 @@
         </div>
       </div>
       <main>
-        <section class="about-us-container">
+        <section id="about" class="about-us-container">
           <div class="content">
             <div class="text-box">
               <h1>MORE ABOUT US</h1>
@@ -119,7 +119,7 @@
             />
           </div>
         </section>
-        <section class="favorite-container">
+        <section id="favorite" class="favorite-container">
           <div class="content">
             <h1>CHOOSE YOUR FAVORITE</h1>
             <div class="product-container">
@@ -144,7 +144,7 @@
             </div>
           </div>
         </section>
-        <section class="specification-container">
+        <section id="model" class="specification-container">
           <div class="content">
             <h1>MODEL SPECIFICATIONS</h1>
             <div class="container-desktop">
